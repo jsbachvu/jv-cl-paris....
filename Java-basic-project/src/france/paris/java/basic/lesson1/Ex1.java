@@ -2,8 +2,13 @@ package france.paris.java.basic.lesson1;
 
 import java.util.ArrayList;
 
-public class Ex1 {
 
+public class Ex1 {
+	
+	public int getNumber(){
+		return 5;
+	}
+	
 	public static void main_(String str[]) {
 		int[][][][] arrayRefVar = new int[5][7][2][8];
 		System.out.println(arrayRefVar[1][0][1].length);
