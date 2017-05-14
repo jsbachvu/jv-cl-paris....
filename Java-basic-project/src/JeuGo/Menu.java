@@ -52,6 +52,8 @@ public class Menu extends JFrame {
 		
 		Choice choice = new Choice();
 		choice.setBounds(132, 27, 116, 20);
+		choice.addItem("A");
+		choice.addItem("B");
 		panel.add(choice);
 		
 		Label label_1 = new Label("Size:");
